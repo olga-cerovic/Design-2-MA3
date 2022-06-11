@@ -20,13 +20,15 @@ p {
 }
 
 .content-left h3 {
-  font-family: cabrito-didone-normal;
+  /* font-family: cabrito-didone-normal; */
   text-transform: uppercase;
+  font-family: "DM Serif Display", serif;
+  font-weight: 550;
 }
 
 h1,
 h4 {
-  font-family: cabrito-didone-normal;
+  /* font-family: cabrito-didone-normal; */
   font-style: italic;
 }
 
@@ -116,13 +118,14 @@ li {
   text-transform: uppercase;
   font-size: 0.9em;
   cursor: pointer;
+  font-weight: 590;
 }
 
 .see-product {
   margin-top: 1.2rem;
   border: 1px solid black;
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-  font-weight: 550;
+  font-weight: 600;
   font-size: 0.9em;
   background-color: var(--document-background-color);
   cursor: pointer;
